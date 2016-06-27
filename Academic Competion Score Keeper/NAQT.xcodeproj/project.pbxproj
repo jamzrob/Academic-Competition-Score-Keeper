@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCCDB97E1807466D00432B30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCCDB97D1807466D00432B30 /* Foundation.framework */; };
+		CCCDB9801807466D00432B30 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCCDB97F1807466D00432B30 /* CoreGraphics.framework */; };
+		CCCDB9821807466D00432B30 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCCDB9811807466D00432B30 /* UIKit.framework */; };
+		CCCDB9881807466D00432B30 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCCDB9861807466D00432B30 /* InfoPlist.strings */; };
+		CCCDB98A1807466D00432B30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCDB9891807466D00432B30 /* main.m */; };
+		CCCDB98E1807466D00432B30 /* JSRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCDB98D1807466D00432B30 /* JSRAppDelegate.m */; };
+		CCCDB9911807466D00432B30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCCDB98F1807466D00432B30 /* Main.storyboard */; };
+		CCCDB9941807466D00432B30 /* JSRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCDB9931807466D00432B30 /* JSRViewController.m */; };
+		CCCDB9961807466D00432B30 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCCDB9951807466D00432B30 /* Images.xcassets */; };
+		CCCDB99D1807466E00432B30 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCCDB99C1807466E00432B30 /* XCTest.framework */; };
+		CCCDB99E1807466E00432B30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCCDB97D1807466D00432B30 /* Foundation.framework */; };
+		CCCDB99F1807466E00432B30 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCCDB9811807466D00432B30 /* UIKit.framework */; };
+		CCCDB9A71807466E00432B30 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCCDB9A51807466E00432B30 /* InfoPlist.strings */; };
+		CCCDB9A91807466E00432B30 /* Academic_Competion_Score_KeeperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCDB9A81807466E00432B30 /* Academic_Competion_Score_KeeperTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCCDB9A01807466E00432B30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCCDB9721807466D00432B30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCCDB9791807466D00432B30;
+			remoteInfo = "Academic Competion Score Keeper";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC051E46184A8DD5000BEBB3 /* Untitled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Untitled.png; sourceTree = "<group>"; };
+		CCCDB97A1807466D00432B30 /* NAQT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NAQT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCCDB97D1807466D00432B30 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CCCDB97F1807466D00432B30 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CCCDB9811807466D00432B30 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CCCDB9851807466D00432B30 /* NAQT-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NAQT-Info.plist"; sourceTree = "<group>"; };
+		CCCDB9871807466D00432B30 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CCCDB9891807466D00432B30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCCDB98B1807466D00432B30 /* NAQT-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NAQT-Prefix.pch"; sourceTree = "<group>"; };
+		CCCDB98C1807466D00432B30 /* JSRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSRAppDelegate.h; sourceTree = "<group>"; };
+		CCCDB98D1807466D00432B30 /* JSRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSRAppDelegate.m; sourceTree = "<group>"; };
+		CCCDB9901807466D00432B30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCCDB9921807466D00432B30 /* JSRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSRViewController.h; sourceTree = "<group>"; };
+		CCCDB9931807466D00432B30 /* JSRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSRViewController.m; sourceTree = "<group>"; };
+		CCCDB9951807466D00432B30 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CCCDB99B1807466E00432B30 /* NAQTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NAQTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCCDB99C1807466E00432B30 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CCCDB9A41807466E00432B30 /* NAQTTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NAQTTests-Info.plist"; sourceTree = "<group>"; };
+		CCCDB9A61807466E00432B30 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CCCDB9A81807466E00432B30 /* Academic_Competion_Score_KeeperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Academic_Competion_Score_KeeperTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCCDB9771807466D00432B30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCCDB9801807466D00432B30 /* CoreGraphics.framework in Frameworks */,
+				CCCDB9821807466D00432B30 /* UIKit.framework in Frameworks */,
+				CCCDB97E1807466D00432B30 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCCDB9981807466E00432B30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCCDB99D1807466E00432B30 /* XCTest.framework in Frameworks */,
+				CCCDB99F1807466E00432B30 /* UIKit.framework in Frameworks */,
+				CCCDB99E1807466E00432B30 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCCDB9711807466D00432B30 = {
+			isa = PBXGroup;
+			children = (
+				CC051E46184A8DD5000BEBB3 /* Untitled.png */,
+				CCE836E8184A88CA0050AAC9 /* iPad */,
+				CCCDB9831807466D00432B30 /* Academic Competion Score Keeper */,
+				CCCDB9A21807466E00432B30 /* Academic Competion Score KeeperTests */,
+				CCCDB97C1807466D00432B30 /* Frameworks */,
+				CCCDB97B1807466D00432B30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCCDB97B1807466D00432B30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCCDB97A1807466D00432B30 /* NAQT.app */,
+				CCCDB99B1807466E00432B30 /* NAQTTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCCDB97C1807466D00432B30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCCDB97D1807466D00432B30 /* Foundation.framework */,
+				CCCDB97F1807466D00432B30 /* CoreGraphics.framework */,
+				CCCDB9811807466D00432B30 /* UIKit.framework */,
+				CCCDB99C1807466E00432B30 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCCDB9831807466D00432B30 /* Academic Competion Score Keeper */ = {
+			isa = PBXGroup;
+			children = (
+				CCCDB98C1807466D00432B30 /* JSRAppDelegate.h */,
+				CCCDB98D1807466D00432B30 /* JSRAppDelegate.m */,
+				CCCDB98F1807466D00432B30 /* Main.storyboard */,
+				CCCDB9921807466D00432B30 /* JSRViewController.h */,
+				CCCDB9931807466D00432B30 /* JSRViewController.m */,
+				CCCDB9951807466D00432B30 /* Images.xcassets */,
+				CCCDB9841807466D00432B30 /* Supporting Files */,
+			);
+			path = "Academic Competion Score Keeper";
+			sourceTree = "<group>";
+		};
+		CCCDB9841807466D00432B30 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCCDB9851807466D00432B30 /* NAQT-Info.plist */,
+				CCCDB9861807466D00432B30 /* InfoPlist.strings */,
+				CCCDB9891807466D00432B30 /* main.m */,
+				CCCDB98B1807466D00432B30 /* NAQT-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCCDB9A21807466E00432B30 /* Academic Competion Score KeeperTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCCDB9A81807466E00432B30 /* Academic_Competion_Score_KeeperTests.m */,
+				CCCDB9A31807466E00432B30 /* Supporting Files */,
+			);
+			path = "Academic Competion Score KeeperTests";
+			sourceTree = "<group>";
+		};
+		CCCDB9A31807466E00432B30 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCCDB9A41807466E00432B30 /* NAQTTests-Info.plist */,
+				CCCDB9A51807466E00432B30 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCE836E8184A88CA0050AAC9 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCCDB9791807466D00432B30 /* NAQT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCCDB9AC1807466E00432B30 /* Build configuration list for PBXNativeTarget "NAQT" */;
+			buildPhases = (
+				CCCDB9761807466D00432B30 /* Sources */,
+				CCCDB9771807466D00432B30 /* Frameworks */,
+				CCCDB9781807466D00432B30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NAQT;
+			productName = "Academic Competion Score Keeper";
+			productReference = CCCDB97A1807466D00432B30 /* NAQT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCCDB99A1807466E00432B30 /* NAQTTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCCDB9AF1807466E00432B30 /* Build configuration list for PBXNativeTarget "NAQTTests" */;
+			buildPhases = (
+				CCCDB9971807466E00432B30 /* Sources */,
+				CCCDB9981807466E00432B30 /* Frameworks */,
+				CCCDB9991807466E00432B30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCCDB9A11807466E00432B30 /* PBXTargetDependency */,
+			);
+			name = NAQTTests;
+			productName = "Academic Competion Score KeeperTests";
+			productReference = CCCDB99B1807466E00432B30 /* NAQTTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCCDB9721807466D00432B30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JSR;
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "James Raubenhimer";
+				TargetAttributes = {
+					CCCDB99A1807466E00432B30 = {
+						TestTargetID = CCCDB9791807466D00432B30;
+					};
+				};
+			};
+			buildConfigurationList = CCCDB9751807466D00432B30 /* Build configuration list for PBXProject "NAQT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCCDB9711807466D00432B30;
+			productRefGroup = CCCDB97B1807466D00432B30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCCDB9791807466D00432B30 /* NAQT */,
+				CCCDB99A1807466E00432B30 /* NAQTTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCCDB9781807466D00432B30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCCDB9961807466D00432B30 /* Images.xcassets in Resources */,
+				CCCDB9881807466D00432B30 /* InfoPlist.strings in Resources */,
+				CCCDB9911807466D00432B30 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCCDB9991807466E00432B30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCCDB9A71807466E00432B30 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCCDB9761807466D00432B30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCCDB9941807466D00432B30 /* JSRViewController.m in Sources */,
+				CCCDB98E1807466D00432B30 /* JSRAppDelegate.m in Sources */,
+				CCCDB98A1807466D00432B30 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCCDB9971807466E00432B30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCCDB9A91807466E00432B30 /* Academic_Competion_Score_KeeperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCCDB9A11807466E00432B30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCCDB9791807466D00432B30 /* NAQT */;
+			targetProxy = CCCDB9A01807466E00432B30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCCDB9861807466D00432B30 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCCDB9871807466D00432B30 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CCCDB98F1807466D00432B30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCCDB9901807466D00432B30 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCCDB9A51807466E00432B30 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCCDB9A61807466E00432B30 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCCDB9AA1807466E00432B30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CCCDB9AB1807466E00432B30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCCDB9AD1807466E00432B30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Academic Competion Score Keeper/NAQT-Prefix.pch";
+				INFOPLIST_FILE = "Academic Competion Score Keeper/NAQT-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				PRODUCT_NAME = NAQT;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CCCDB9AE1807466E00432B30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Academic Competion Score Keeper/NAQT-Prefix.pch";
+				INFOPLIST_FILE = "Academic Competion Score Keeper/NAQT-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				PRODUCT_NAME = NAQT;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CCCDB9B01807466E00432B30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Academic Competion Score Keeper.app/Academic Competion Score Keeper";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Academic Competion Score Keeper/Academic Competion Score Keeper-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Academic Competion Score KeeperTests/NAQTTests-Info.plist";
+				PRODUCT_NAME = NAQTTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CCCDB9B11807466E00432B30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Academic Competion Score Keeper.app/Academic Competion Score Keeper";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Academic Competion Score Keeper/Academic Competion Score Keeper-Prefix.pch";
+				INFOPLIST_FILE = "Academic Competion Score KeeperTests/NAQTTests-Info.plist";
+				PRODUCT_NAME = NAQTTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCCDB9751807466D00432B30 /* Build configuration list for PBXProject "NAQT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCCDB9AA1807466E00432B30 /* Debug */,
+				CCCDB9AB1807466E00432B30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCCDB9AC1807466E00432B30 /* Build configuration list for PBXNativeTarget "NAQT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCCDB9AD1807466E00432B30 /* Debug */,
+				CCCDB9AE1807466E00432B30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCCDB9AF1807466E00432B30 /* Build configuration list for PBXNativeTarget "NAQTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCCDB9B01807466E00432B30 /* Debug */,
+				CCCDB9B11807466E00432B30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCCDB9721807466D00432B30 /* Project object */;
+}
